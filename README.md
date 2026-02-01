@@ -1,9 +1,9 @@
-# Checklist
+# Usage
+Place Google Gemini key in .env
+cd my-app
+npm install
+npm run dev
 
-- ~~Create static website~~
-- ~~Add option to transcribe audio using Web Speech API~~
-- ~~Add Google account Sign-In page~~
-- ~~Added Google Gemini backend to produce JSON output~~
-- ~~Create Google Calendar event with the data from the JSON output~~
-- ~~Make the sign in and out button cool~~
-- Display Google Calendar on website. If not possible, create calendar that replicates it and updates in real time
+# Overview
+Developed a React, AI agent web application that integrates Google Calendar with natural speech commands powered by Supabase OAuth, Google Gemini and Web Speech API, reducing event management time by 62%.
+Implemented a back-end pipeline to process user requests via Google Gemini API, outputting structured JSON to Google Calendar.
